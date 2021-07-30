@@ -1,13 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
-  selector: 'kategorimeny',
+  selector: 'furst-kategorimeny',
   templateUrl: './kategorimeny.component.html',
   styleUrls: ['./kategorimeny.component.css']
 })
 export class KategorimenyComponent implements OnInit {
+  @Output() vanligeRorEmitter = new EventEmitter();
+  @Output() spesialrorEmitter = new EventEmitter();
 
   constructor() { }
+
+  trykkKnapp(produkttype: string){
+    if (produkttype == "vanligeRor"){
+      console.log("heyyo");
+      this.vanligeRorEmitter.emit();
+    } else if (produkttype == "spesialror"){
+      this.spesialrorEmitter.emit();
+    }
+
+  }
 
   ngOnInit(): void {
   }

@@ -1,16 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import { KategoriComponent } from '../kategori/kategori.component';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-produkt',
+  selector: 'furst-produkt',
   templateUrl: './produkt.component.html',
   styleUrls: ['./produkt.component.css']
 })
 export class ProduktComponent implements OnInit {
+  @Input() public produkt: any = "";
 
-  constructor(produktNavn: string, produktbilde: any) { }
+  public navn: any; beskrivelse: any; bilde: any;
+  constructor() { }
 
   ngOnInit(): void {
+    this.navn = this.produkt.produktnavn;
+    this.beskrivelse = this.produkt.produktbeskrivelse;
+    this.bilde = this.produkt.produktbilde;
   }
-
 }

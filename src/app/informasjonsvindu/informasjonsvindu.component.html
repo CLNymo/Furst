@@ -1,1 +1,26 @@
-<p>informasjonsvindu works!</p>
+
+<div class="row">
+    <div class="col-sm-6">
+        <furst-forsidetekst 
+            [hidden]="!forsidetekst.vis"></furst-forsidetekst>
+        <furst-produktmeny
+            produkttype = "Vanlige Rør" 
+            [produktliste]="vanligeRor.produktliste"
+            [hidden]="!vanligeRor.vis"></furst-produktmeny>
+        <furst-produktmeny 
+            produkttype = "Spesialrør"
+            [produktliste]="spesialror.produktliste"
+            [hidden]="!spesialror.vis"></furst-produktmeny>
+
+    </div>
+    <div class="col-sm-5">
+        <furst-kategorimeny 
+        (vanligeRorEmitter)="endreVisning(vanligeRor)"
+        (spesialrorEmitter)="endreVisning(spesialror)">
+        </furst-kategorimeny>      
+    </div>
+
+    
+  </div>
+
+

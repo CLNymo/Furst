@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'handlekurv',
+  selector: 'furst-handlekurv',
   templateUrl: './handlekurv.component.html',
   styleUrls: ['./handlekurv.component.css']
 })
