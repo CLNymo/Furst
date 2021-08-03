@@ -1,0 +1,73 @@
+v,,Gelrør (SST), serum,,Gul-orange propp.,,v1.jpg
+v,,Rør uten tilsetning,,Til prøvetaking for serumanalyser (legemidler). Rød propp.,,v2.jpg
+v,,EDTA-rør,,Hematologiske analyser og HbA1c. Lilla propp.,,v3.jpg
+v,,Plastrør med skrukork,,Til forsendelse av serum/plasma.,,v4.jpg
+s,,HCY, PTH og MMA, EDTA-rør med gel,,Homocystein, PTH og MMA. Gråhvit propp. Spesiell prøvetakingsprosedyre.,,s1.jpg
+s,,Heparinrør med gel, spormetaller,,Sink, selen, kobber og aluminium. Lys grønn propp med gul ring.,,s2.jpg
+s,,Heparinrør, tungmetaller,,Bly, kadmium og kvikksølv. Mørk grønn propp.,,s3.jpg
+s,,Citratrør,,Koagulasjonsanalyser (INR). Lys blå propp.,,s4.jpg
+s,,Urinanalyser,,Vakuumrør med gul propp uten tilsetning. (10mL).,,s5.jpg
+s,,Rør til Kalprotectin i feces,,Plastrør (med skje), med hylse.,,s6.jpg
+m,,Pensel til SOI,,Aptima Multitest Swab - til seksuelt overførbare infeksjoner.,,m1.jpg
+m,,Urinrør til SOI,,Aptima Urinrør - til seksuelt overførbare infeksjoner.,,m2.jpg
+m,,Rør med borsyre - Olivengrønn propp,,Oppsugningsadapter og forsendelsesrør med borsyre. Benyttes til dyrkningsprøver i urin.,,m3.jpg
+m,,Hvit/rosa/lilla propp - Eswab (Amies transportmedium),,Pensel i normal størrelse. Benyttes til nese, hals, vagina og sår. NB! Rektum for ESBL og VRE-screening,,m4.jpg
+m,,Orange propp - Eswab (Amies transportmedium),,Pensel i tynn størrelse. Benyttes til øye, øre, nesegang, hals, sår, urinveier og pediatriske prøver.,,m5.jpg
+m,,Blå propp - Eswab (Amies transportmedium),,Lang, tynn pensel. Benyttes til nasopharynx prøver.,,m6.jpg
+m,,Grønn propp - FecalSwab (Cary Blair medium),,2 mL Cary Blair medium. Pensel i normal størrelse. Benyttes til PCR av parasitter/bakterier/virus og dyrkningsprøver i feces.,,m7.jpg
+m,,Plastrør til dermatofytter - 7 mL,,Plastrør med skrukork til dermatofytter (sopp). Benyttes til hår, negl- og hudavskrap.,,m8.jpg
+ne,,Nåler, Grønne (21Gx1,5"),,Sikkerhetskanyler for prøvetaking i vakuumrør.,,none
+ne,,Nåler, Sorte (22Gx1"),,Sikkerhetskanyler for prøvetaking i vakuumrør.,,none
+ne,,Nåleholder for vakuumrør,,Gul flergangsholder.,,none
+ne,,Hylser til forsendelse,,Godkjente plasthylser. Hver hylse tar 1 rør.,,none
+ne,,Transportcontainere til flyfrakt,,Gjelder rekvirenter med henteavtale.,,none
+ne,,Hvite konvolutter til rekvisisjoner,,Til forsendelse av rekvisisjoner sammen med flycontainere.,,none
+ne,,Emballasje til blodutstryk,,Plastesker som hver tar 2 blodutstryk.,,none
+f,,Brune frankerte konvolutter biologisk stoff,,Vanlig postforsendelse. Kan benyttes til prøver med holdbarhet > 5 dager i romtemperatur, vekt inntil 350 gram.,,none
+f,,Hvite ekspress over-natt konvolutter biologisk stoff,,Til prøver med kort holdbarhet, eller etter avtale. Skal ikke benyttes fredager. Vekt inntil 4 kg.(For legekontor som ikke har daglig henting fra Fürst).,,none
+f,,Brune budkonvolutter,,For henting med bud (gjelder legekontor som ikke bruker stativ).,,none
+f,,Hvite konvolutter til rekvisisjoner,,Kun ved flyfrakt.,,none
+r,,Følgeskriv Fürst Forum,,Til elektronisk rekvirering via Fürst Forum,,r1.jpg
+r,,Patologi følgeskriv til Fürst Forum (etter avtale),,Til elektronisk rekvirering via Fürst Forum,,r2.jpg
+r,,Hovedrekvisisjon (klinisk kjemi),,(Ikke elektronisk rekvirering),,r3.jpg
+r,,Allergi,, ,,r4.jpg
+r,,Fordøyelsessykdommer,, ,,r5.jpg
+r,,Legemidler og rusmidler,, ,,r6.jpg
+r,,Dyrkning/mikroskopi,, ,,r7.jpg
+r,,Molekylærbiologi/PCR,, ,,r8.jpg
+r,,ESBL/MRSA/VRE-screening,,Kun for bruk i institusjoner,,r9.jpg
+r,,Cytologi,, ,,r10.jpg
+r,,Histologi,, ,,r11.jpg
+t,,Kalender 2021,,A4 format,,none
+t,,Furstpasient.no kort.,,Kort med info om www.furstpasient.no for utdeling til pasienter,,none
+t,,Furstpasient.no plakat,,Til oppheng for info om www.furstpasient.no på f.eks venterom/resepsjon,,none
+t,,Prøvetakingsmesteren - kom i gang kort,,Prøvetakingsmesteren er et læringsspill om blodprøvetaking spesielt laget for medarbeidere ved legekontor og for studenter,,none
+t,,Veiledning til den elektroniske Blåboka,,Blåboka foreligger nå KUN i elektronisk utgave. Last ned veiledningshefte her (pdf).,,All informasjonen fra boka er til enhver tid oppdatert og tilgjengelig på våre nettsider. Se analyse og klinikk.,,none
+t,,Referanseområder, folder,,Denne utgis ikke lenger i papirformat.,,Link til referanseområder her.,,none
+t,,Gode arbeidsrutiner - lommeformat,,Lommefolder med tapperekkefølge og veiledning til prøvetaking. Trykk her for pdf.,,none
+t,,Retningslinjer for prøvetaking til litiumanalyse,, ,,none
+t,,Skjema for kvalitetsvurdering,, ,,none
+t,,Analysevariasjonstabell,,Analytisk og biologisk variasjon for de enkelte analyser.,, ,,none
+t,,Fremgangsmåte for å lage blodutstryk,, ,,none
+t,,Temahefte 01- Glandula thyreoidea,,Utredning og oppfølging av funksjonsforstyrrelser,,none
+t,,Temahefte 02 - Den gravide og laboratoriet,,Referanseverdier - infeksjoner i svangerskapet,,none
+t,,Temahefte 03 - Mage-tarm-kanalen,,Utredning og oppfølging av plager i fordøyelsessystemet,,none
+t,,Temahefte 04 - Allergi og laboratoriet,,Allergiutredning - Serologisk testing,,none
+t,,Temahefte 05 - Gode rutiner ved prøvetaking,,Anbefalinger og praktiske tips for rekvirering, tapping og merking av prøver til laboratoriet,,none
+t,,Temahefte 06 - Seksuelt overførbare infeksjoner,,Diagnostikk og behandling,,none
+t,,Temahefte 07 - Rusmidler og Rusmiddelbruk,,Rusmiddelanalyser og hvordan tolke svarene,,none
+t,,Blåpermer til Fürst Info,,A5 permer til arkivering av informasjon fra Fürst.,,none
+a,,Kanyleboks,,2,8 liter,,none
+a,,Doble etiketter til Forum,,Doble etiketter til bruk ved elektronisk rekvirering.,,none
+a,,Enkle etiketter til Forum,,Enkle etiketter til bruk ved elektronisk rekvirering.,,none
+p,,Plastspatler,,Til væskebasert cytologi.,,p1.jpg
+p,,Rovers Cervex Brush (kun til væskebasert cytologi),, ,,p2.jpg
+p,,ThinPrep - til HPV og væskebasert cytologi,,Inkl. hylse og absorberende materiale,,p3.jpg
+p,,Fikseringsvæske cytologi,,Flaske med 100mL.,,none
+p,,Cytologiske børster; cervibrush,,Obs! IKKE til væskebasert cytologi.,,p5.jpg
+p,,Objektglass,, ,,none
+p,,Transportesker til objektsglass,, ,,none
+p,,Prøveglass til histologi,,Inkl. hylse og absorberende materiale.,,p8.jpg
+o,,Periodontitt,,Prøvetakings- og forsendelsesutstyr, rekvisisjon og konvolutt.,,none
+o,,Sopp og bakteriologi,,Pensel, transporthylse, rekvisisjon og konvolutt.,,none
+o,,Biopsier,,Prøveglass, transporthylse, rekvisisjon og konvolutt.,,none

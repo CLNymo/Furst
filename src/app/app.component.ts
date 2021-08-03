@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(public alleProdukterService: AlleProdukterService){}
 
   vanligeRor = this.alleProdukterService.vanligeRor;
-  spesialRor = this.alleProdukterService.spesialRor;
+  spesialRor = this.alleProdukterService.spesialror;
   
   title = 'Furst';
 

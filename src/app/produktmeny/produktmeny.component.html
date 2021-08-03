@@ -1,13 +1,14 @@
-    <div class="card;">
-        <article class="card-body">
-            <h1 class="display-6">{{produkttype}}</h1>
+    <div class="card">
+            <h1 class="display-6">{{produktkategori.overskrift}}</h1>
+            <div class="card-body">
             <table>
                 <tbody>
                     <tr *ngFor="let produkt of produktliste">
                         <furst-produkt [produkt]="produkt"></furst-produkt>
                     </tr>  
                 </tbody>
-        </table> 
-        </article>   
+            </table> 
+        </div>
+           
 
 </div>

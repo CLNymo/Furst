@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 
 @Component({
@@ -7,75 +7,61 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./kategorimeny.component.css']
 })
 export class KategorimenyComponent implements OnInit {
-  @Output() vanligeRorEmitter = new EventEmitter();
-  @Output() spesialrorEmitter = new EventEmitter();
+  @Input() alleKategorier: any;
+
+  // én emitter for hver knapp i menyen. Lytter etter klikk og sender signal til informasjonsvinduComponent
+  @Output() trykketPaaKnapp = new EventEmitter<any>();
+
+  kategoripeker: any = "";
 
   constructor() { }
 
-  trykkKnapp(produkttype: string){
-    if (produkttype == "vanligeRor"){
-      console.log("heyyo");
-      this.vanligeRorEmitter.emit();
-    } else if (produkttype == "spesialror"){
-      this.spesialrorEmitter.emit();
-    }
-
+  trykkKnapp(kategori: any){
+    this.trykketPaaKnapp.emit(kategori);
   }
 
   ngOnInit(): void {
   }
 
-  tittel: string = "Her skal varene stå!";
-  tekst: string = "yo maddafakka"
 
-  vanligeRor = {
-    tekst: "Vanlige rør >",
-    link: " "
-  }
+  //vanligeRor = {
+    //tekst: "Vanlige rør >",
+  //}
 
   spesialror = {
     tekst:  "Spesialrør >",
-    link: " "
   }
 
   mikrobiologi = {
     tekst: "Mikrobiologi >",
-    link: " "
   }
 
   nalerOgEmballasje = {
     tekst: "Nåler og emballasje >",
-    link: " "
   }
 
   forsendelseskonvolutter = {
     tekst: "Konvolutter >",
-    link: " "
   }
 
   rekvisisjoner = {
     tekst: "Rekvisisjoner >",
-    link: " "
   }
 
   trykksaker = {
     tekst: "Trykksaker >",
-    link: " "
   }
 
   patologi = {
     tekst: "Patologi >",
-    link: " "
   }
 
   odontologi = {
     tekst: "Odontologi >",
-    link: " "
   }
 
   annet = {
     tekst: "Annet >",
-    link: " "
   }
 
 }

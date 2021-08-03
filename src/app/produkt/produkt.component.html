@@ -1,3 +1,15 @@
-<h5>{{navn}}</h5>
-<h6>{{beskrivelse}}</h6>
-<img [src]="bilde">
+<div class="card" style="border-color: white;">
+    <div style="padding: 20px;">
+        <h5>{{navn}}</h5>
+        <h6>{{beskrivelse}}</h6>
+
+        <form #leggTil="ngForm" (ngSubmit)="onClickLeggTil(leggTil.value)">
+            <img [src]="bilde" width="175" height="30" onerror="this.onerror=null;">
+            <br>
+            <input type="number" name="antall" placeholder="stk." ngModel>
+            <input type="submit" value="Legg til">
+        </form>
+    </div>
+    <hr>
+</div>
+
