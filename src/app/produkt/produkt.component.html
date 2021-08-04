@@ -1,13 +1,14 @@
 <div class="card" style="border-color: white;">
     <div style="padding: 20px;">
         <h5>{{navn}}</h5>
-        <h6>{{beskrivelse}}</h6>
+        <p>{{beskrivelse}}</p>
 
+        <!--Når bruker trykker på "Legg Til" øker antallet av produktet-->
         <form #leggTil="ngForm" (ngSubmit)="onClickLeggTil(leggTil.value)">
-            <img [src]="bilde" width="175" height="30" onerror="this.onerror=null;">
+            <img [src]="bilde" onerror="this.onerror=null; this.src='/./assets/images/produktbilder/none.PNG'">
             <br>
             <input type="number" name="antall" placeholder="stk." ngModel>
-            <input type="submit" value="Legg til">
+            <input type="submit" value="Legg til" class="btn-secondary">
         </form>
     </div>
     <hr>
