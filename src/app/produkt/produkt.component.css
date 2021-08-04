@@ -3,3 +3,13 @@ h5 {
     color: gray;
 }
 
+.btn-secondary {
+    margin-left: 2%;
+    border-style: solid;
+}
+
+img {
+    max-width: 175px;
+}
+
+
