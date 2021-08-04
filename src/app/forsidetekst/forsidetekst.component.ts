@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'forside-tekst',
-  templateUrl: './forside-tekst.component.html',
-  styleUrls: ['./forside-tekst.component.css']
+  selector: 'furst-forsidetekst',
+  templateUrl: './forsidetekst.component.html',
+  styleUrls: ['./forsidetekst.component.css']
 })
-export class ForsideTekstComponent implements OnInit {
+export class ForsidetekstComponent implements OnInit {
   constructor() { }
   ngOnInit(): void {
   }

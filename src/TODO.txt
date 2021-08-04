@@ -1,0 +1,16 @@
+Liste over ting som bør gjøres:
+
+App-funksjon:
+- produkter som legges til handlekurv må samles
+- egen side for å se handlekurv, legge inn bestillingsinformasjon, addresse, osv
+- cookies som lagrer handlekurven selvom du går ut og inn av siden
+- produkter bør leses inn fra fil, ikke ligge åpent i alle-produkter.service.ts
+
+App-design:
+- tall på handlekurven som viser antall produktkategorier som blir bestilt
+- Rydde opp i produkt.component.html
+    - bl.a.: ikke alle produkter har bilde. Det må likevel se greit ut.
+- fjerne bakgrunn på favicon.ico, for sleek design
+
+Rydding av kode:
+- i kategorimeny.component.html opprettes alle knapper manuelt. Dette kan sikkert gjøres med en loop.

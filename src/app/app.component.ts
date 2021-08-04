@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlleProdukterService } from './services/alle-produkter.service';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  constructor(public alleProdukterService: AlleProdukterService){}
+
+  vanligeRor = this.alleProdukterService.vanligeRor;
+  spesialRor = this.alleProdukterService.spesialror;
+  
   title = 'Furst';
 
 }

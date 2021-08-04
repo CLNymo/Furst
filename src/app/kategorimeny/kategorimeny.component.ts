@@ -1,68 +1,67 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
-  selector: 'kategorimeny',
+  selector: 'furst-kategorimeny',
   templateUrl: './kategorimeny.component.html',
   styleUrls: ['./kategorimeny.component.css']
 })
 export class KategorimenyComponent implements OnInit {
+  @Input() alleKategorier: any;
+
+  // én emitter for hver knapp i menyen. Lytter etter klikk og sender signal til informasjonsvinduComponent
+  @Output() trykketPaaKnapp = new EventEmitter<any>();
+
+  kategoripeker: any = "";
 
   constructor() { }
+
+  trykkKnapp(kategori: any){
+    this.trykketPaaKnapp.emit(kategori);
+  }
 
   ngOnInit(): void {
   }
 
-  tittel: string = "Her skal varene stå!";
-  tekst: string = "yo maddafakka"
 
-  vanligeRor = {
-    tekst: "Vanlige rør >",
-    link: " "
-  }
+  //vanligeRor = {
+    //tekst: "Vanlige rør >",
+  //}
 
   spesialror = {
     tekst:  "Spesialrør >",
-    link: " "
   }
 
   mikrobiologi = {
     tekst: "Mikrobiologi >",
-    link: " "
   }
 
   nalerOgEmballasje = {
     tekst: "Nåler og emballasje >",
-    link: " "
   }
 
   forsendelseskonvolutter = {
     tekst: "Konvolutter >",
-    link: " "
   }
 
   rekvisisjoner = {
     tekst: "Rekvisisjoner >",
-    link: " "
   }
 
   trykksaker = {
     tekst: "Trykksaker >",
-    link: " "
   }
 
   patologi = {
     tekst: "Patologi >",
-    link: " "
   }
 
   odontologi = {
     tekst: "Odontologi >",
-    link: " "
   }
 
   annet = {
     tekst: "Annet >",
-    link: " "
   }
 
 }
