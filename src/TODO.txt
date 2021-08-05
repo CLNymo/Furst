@@ -2,8 +2,8 @@ Liste over ting som bør gjøres:
 
 App-funksjon:
 - produkter som legges til handlekurv må samles i et dokument e.l.
-- egen side for å se/endre innhol di handlekurv
-- egen side, evt en del av handlekurv-siden hvor bruekr legger inn info om levering
+- handlekurv-siden: legge til alle elementen som mangler ::)
+- Lage en side hvor bruker kan legge in leveringsinfo, evt gjøre det til en del av handlekurv-siden
 - cookies som lagrer handlekurven selvom du går ut og inn av siden
 - produkter bør leses inn fra fil, ikke ligge åpent i alle-produkter.service.ts (how???)
 - forslag: en "favoritt"-knapp som lar bruker lagre de produktene de ofte bestiller på en egen side
@@ -16,3 +16,4 @@ App-design:
 
 Rydding av kode:
 - i kategorimeny.component.html opprettes alle knapper manuelt. Dette kan sikkert gjøres med en loop.
+- rydde opp i komponent.navn. Særlig alle handlekurv-komponentene kan bli forvirrende.

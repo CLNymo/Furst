@@ -15,6 +15,7 @@ import { HandlekurvSideComponent } from './handlekurv-side/handlekurv-side.compo
 import { VerktoylinjeComponent } from './verktoylinje/verktoylinje.component';
 import { RouterModule } from '@angular/router';
 import { HjemComponent } from './hjem/hjem.component';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { HjemComponent } from './hjem/hjem.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

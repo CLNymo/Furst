@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AlleProdukterService } from './services/alle-produkter.service';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,32 @@ import { AlleProdukterService } from './services/alle-produkter.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  private title: string = 'Furst';
+  private cookie_name: string = "";
+  private all_cookies: any = ""; 
 
-  constructor(public alleProdukterService: AlleProdukterService){}
-
-  vanligeRor = this.alleProdukterService.vanligeRor;
-  spesialRor = this.alleProdukterService.spesialror;
+  constructor(public alleProdukterService: AlleProdukterService, private cookieService: CookieService){
+    
+  }
   
-  title = 'Furst';
+
+
+  setCookie(){
+    this.cookieService.set('name','Tutorialswebsite');
+  }
+   
+  deleteCookie(){
+    this.cookieService.delete('name');
+  }
+   
+  deleteAll(){
+    this.cookieService.deleteAll();
+  }
+
+  ngOnInit(): void {
+    this.cookie_name=this.cookieService.get('name');
+    this.all_cookies=this.cookieService.getAll();  // get all cookies object
+      
+    }
 
 }
