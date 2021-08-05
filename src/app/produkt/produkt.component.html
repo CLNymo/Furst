@@ -3,10 +3,11 @@
         <h5>{{navn}}</h5>
         <p>{{beskrivelse}}</p>
 
-        <!--Når bruker trykker på "Legg Til" øker antallet av produktet-->
+        <!--"Legg til"-knappen endrer antall-property på produktet-->
         <form #leggTil="ngForm" (ngSubmit)="onClickLeggTil(leggTil.value)">
-            <img [src]="bilde" onerror="this.onerror=null; this.src='/./assets/images/produktbilder/none.PNG'">
-            <br>
+        <!--Dersom produkt ikke har et bilde, vil et blankt bilde vises (none.PNG)-->            
+        <img [src]="bilde" onerror="this.onerror=null; this.src='/./assets/images/produktbilder/none.PNG'">
+            <br><br>
             <input type="number" name="antall" placeholder="stk." ngModel>
             <input type="submit" value="Legg til" class="btn-secondary">
         </form>
