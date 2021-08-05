@@ -11,6 +11,10 @@ import { InformasjonsvinduComponent } from './informasjonsvindu/informasjonsvind
 import { ProduktmenyComponent } from './produktmeny/produktmeny.component';
 import { ProduktComponent } from './produkt/produkt.component';
 import { FormsModule } from '@angular/forms';
+import { HandlekurvSideComponent } from './handlekurv-side/handlekurv-side.component';
+import { VerktoylinjeComponent } from './verktoylinje/verktoylinje.component';
+import { RouterModule } from '@angular/router';
+import { HjemComponent } from './hjem/hjem.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +26,9 @@ import { FormsModule } from '@angular/forms';
     InformasjonsvinduComponent,
     ProduktmenyComponent,
     ProduktComponent,
+    HandlekurvSideComponent,
+    VerktoylinjeComponent,
+    HjemComponent,
     
   ],
   imports: [

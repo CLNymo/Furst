@@ -1,16 +1,18 @@
 Liste over ting som bør gjøres:
 
 App-funksjon:
-- produkter som legges til handlekurv må samles
-- egen side for å se handlekurv, legge inn bestillingsinformasjon, addresse, osv
+- produkter som legges til handlekurv må samles i et dokument e.l.
+- egen side for å se/endre innhol di handlekurv
+- egen side, evt en del av handlekurv-siden hvor bruekr legger inn info om levering
 - cookies som lagrer handlekurven selvom du går ut og inn av siden
-- produkter bør leses inn fra fil, ikke ligge åpent i alle-produkter.service.ts
+- produkter bør leses inn fra fil, ikke ligge åpent i alle-produkter.service.ts (how???)
+- forslag: en "favoritt"-knapp som lar bruker lagre de produktene de ofte bestiller på en egen side
+- en knapp "produkter" eller "hjem" ellernoe i verktøylinjen som lar deg gå tilbake hvis du er i f.eks. handlekurv-siden
 
 App-design:
 - tall på handlekurven som viser antall produktkategorier som blir bestilt
-- Rydde opp i produkt.component.html
-    - bl.a.: ikke alle produkter har bilde. Det må likevel se greit ut.
-- fjerne bakgrunn på favicon.ico, for sleek design
+- gjøre transparent bakgrunn på favicon.ico
+- siden er akkurat litt bredere enn skjermen. Tilpass dette så det ikk ekommer opp scrolle-bar. Sjekk margen på handlekurv-knappen?
 
 Rydding av kode:
 - i kategorimeny.component.html opprettes alle knapper manuelt. Dette kan sikkert gjøres med en loop.
