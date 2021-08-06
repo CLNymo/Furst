@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AlleProdukterService } from './services/alle-produkter.service';
 import { CookieService } from 'ngx-cookie-service';
+import { HandlekurvService } from './services/handlekurv.service';
 
 @Component({
   selector: 'app-root',
@@ -12,11 +13,12 @@ export class AppComponent {
   private cookie_name: string = "";
   private all_cookies: any = ""; 
 
-  constructor(public alleProdukterService: AlleProdukterService, private cookieService: CookieService){
+  constructor(
+    public alleProdukterService: AlleProdukterService, 
+    public handlekurvService: HandlekurvService, 
+    private cookieService: CookieService){
     
   }
-  
-
 
   setCookie(){
     this.cookieService.set('name','Tutorialswebsite');

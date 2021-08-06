@@ -8,6 +8,8 @@ App-funksjon:
 - produkter bør leses inn fra fil, ikke ligge åpent i alle-produkter.service.ts (how???)
 - forslag: en "favoritt"-knapp som lar bruker lagre de produktene de ofte bestiller på en egen side
 - en knapp "produkter" eller "hjem" ellernoe i verktøylinjen som lar deg gå tilbake hvis du er i f.eks. handlekurv-siden
+- passe på at bruker bare kan skrive inn tall når de legger til handlekurv i produktComponent
+- passe på at det står et antall i boksen før bruker kan trykke legg til. Nå kan man legge til uten å ha et antall, og dte blir kluss..
 
 App-design:
 - tall på handlekurven som viser antall produktkategorier som blir bestilt
@@ -15,5 +17,7 @@ App-design:
 - siden er akkurat litt bredere enn skjermen. Tilpass dette så det ikk ekommer opp scrolle-bar. Sjekk margen på handlekurv-knappen?
 
 Rydding av kode:
+- Alle produktKATEGORIER ligger i informasjonsvindu.ts. Dette kan sikkert legges i alle-produkter service?
 - i kategorimeny.component.html opprettes alle knapper manuelt. Dette kan sikkert gjøres med en loop.
 - rydde opp i komponent.navn. Særlig alle handlekurv-komponentene kan bli forvirrende.
+- Forvirrende at et produkt kan være ProduktComponent eller produkt fra alle-produkter-service. Skaper kluss.

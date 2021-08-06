@@ -9,7 +9,7 @@ export class ProduktmenyComponent implements OnInit {
   @Input() public produktkategori: any; // settes av informasjonsvindu
 
 
-  //TODO: skille mellom produktliste og liste ove rkategorier??
+  //TODO: penere skille mellom produktliste og liste over kategorier??
 
   produktliste: any[] = [];
 

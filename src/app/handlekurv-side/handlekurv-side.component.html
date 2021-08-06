@@ -1,11 +1,21 @@
 
 <!--Gir kunde oversikt over handlekurv, samt mulighet for å endre innholdet-->
 
-<div style="margin-left: 100px;">
-    <br><br>
-    <h1>Her kommer oversikt over produkter i handlekurven :)</h1>
-    <p>Jeg må bare finne ut hvordan....</p>
+
+<div style="margin-left: 3%; margin-top: 2%;">
+    <h1 class="display-6">Handlekurv</h1>
+    <div class="card-body">
+        <table>
+            <tbody>
+                <tr *ngFor="let produkt of hentProdukterSomLister()">
+                    <furst-produkt-i-handlekurv [produkt]="produkt[0]" [antall]="produkt[1]"></furst-produkt-i-handlekurv>
+                <hr>
+                </tr>  
+            </tbody>
+        </table> 
+    </div>
 </div>
+
 
 
 
