@@ -8,7 +8,7 @@ export class AlleProdukterService {
 
   // produkter grupperes i arrays på bunnen av dokumentet
 
-  
+  // produktene er "hardkodet" inn i servicen her. Burde kanskje leses inn fra fil istedet?
   v1 = {
     produktnavn: 'Gelrør (SST), serum',
     beskrivelse: 'Gul-orange propp.',
@@ -120,67 +120,67 @@ export class AlleProdukterService {
   ne1 = {
     produktnavn: 'Nåler, Grønne (21Gx1,5")',
     beskrivelse: 'Sikkerhetskanyler for prøvetaking i vakuumrør.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne2 = {
     produktnavn: 'Nåler, Sorte (22Gx1")',
     beskrivelse: 'Sikkerhetskanyler for prøvetaking i vakuumrør.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne3 = {
     produktnavn: 'Nåleholder for vakuumrør',
     beskrivelse: 'Gul flergangsholder.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne4 = {
     produktnavn: 'Hylser til forsendelse',
     beskrivelse: 'Godkjente plasthylser. Hver hylse tar 1 rør.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne5 = {
     produktnavn: 'Transportcontainere til flyfrakt',
     beskrivelse: 'Gjelder rekvirenter med henteavtale.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne6 = {
     produktnavn: 'Hvite konvolutter til rekvisisjoner',
     beskrivelse: 'Til forsendelse av rekvisisjoner sammen med flycontainere.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   ne7 = {
     produktnavn: 'Emballasje til blodutstryk',
     beskrivelse: 'Plastesker som hver tar 2 blodutstryk.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   f1 = {
     produktnavn: 'Brune frankerte konvolutter biologisk stoff',
     beskrivelse: 'Vanlig postforsendelse. Kan benyttes til prøver med holdbarhet > 5 dager i romtemperatur, vekt inntil 350 gram.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   f2 = {
     produktnavn: 'Hvite ekspress over-natt konvolutter biologisk stoff',
     beskrivelse: 'Til prøver med kort holdbarhet, eller etter avtale. Skal ikke benyttes fredager. Vekt inntil 4 kg.(For legekontor som ikke har daglig henting fra Fürst).',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   f3 = {
     produktnavn: 'Brune budkonvolutter',
     beskrivelse: 'For henting med bud (gjelder legekontor som ikke bruker stativ).',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   f4 = {
     produktnavn: 'Hvite konvolutter til rekvisisjoner',
     beskrivelse: 'Kun ved flyfrakt.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   r1 = {
@@ -252,25 +252,25 @@ export class AlleProdukterService {
   t1 = {
     produktnavn: 'Kalender 2021',
     beskrivelse: 'A4 format',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t2 = {
     produktnavn: 'Furstpasient.no kort.',
     beskrivelse: 'Kort med info om www.furstpasient.no for utdeling til pasienter',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t3 = {
     produktnavn: 'Furstpasient.no plakat',
     beskrivelse: 'Til oppheng for info om www.furstpasient.no på f.eks venterom/resepsjon',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t4 = {
     produktnavn: 'Prøvetakingsmesteren - kom i gang kort',
     beskrivelse: 'Prøvetakingsmesteren er et læringsspill om blodprøvetaking spesielt laget for medarbeidere ved legekontor og for studenter',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t5 = {
@@ -288,19 +288,19 @@ export class AlleProdukterService {
   t7 = {
     produktnavn: 'Gode arbeidsrutiner - lommeformat',
     beskrivelse: 'Lommefolder med tapperekkefølge og veiledning til prøvetaking. Trykk her for pdf.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t8 = {
     produktnavn: 'Retningslinjer for prøvetaking til litiumanalyse',
     beskrivelse: ' ',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t9 = {
     produktnavn: 'Skjema for kvalitetsvurdering',
     beskrivelse: ' ',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t10 = {
@@ -312,73 +312,73 @@ export class AlleProdukterService {
   t11 = {
     produktnavn: 'Fremgangsmåte for å lage blodutstryk',
     beskrivelse: ' ',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t12 = {
     produktnavn: 'Temahefte 01- Glandula thyreoidea',
     beskrivelse: 'Utredning og oppfølging av funksjonsforstyrrelser',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t13 = {
     produktnavn: 'Temahefte 02 - Den gravide og laboratoriet',
     beskrivelse: 'Referanseverdier - infeksjoner i svangerskapet',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t14 = {
     produktnavn: 'Temahefte 03 - Mage-tarm-kanalen',
     beskrivelse: 'Utredning og oppfølging av plager i fordøyelsessystemet',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t15 = {
     produktnavn: 'Temahefte 04 - Allergi og laboratoriet',
     beskrivelse: 'Allergiutredning - Serologisk testing',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t16 = {
     produktnavn: 'Temahefte 05 - Gode rutiner ved prøvetaking',
     beskrivelse: 'Anbefalinger og praktiske tips for rekvirering, tapping og merking av prøver til laboratoriet',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t17 = {
     produktnavn: 'Temahefte 06 - Seksuelt overførbare infeksjoner',
     beskrivelse: 'Diagnostikk og behandling',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t18 = {
     produktnavn: 'Temahefte 07 - Rusmidler og Rusmiddelbruk',
     beskrivelse: 'Rusmiddelanalyser og hvordan tolke svarene',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   t19 = {
     produktnavn: 'Blåpermer til Fürst Info',
     beskrivelse: 'A5 permer til arkivering av informasjon fra Fürst.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   a1 = {
     produktnavn: 'Kanyleboks',
     beskrivelse: '2,8 liter',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   a2 = {
     produktnavn: 'Doble etiketter til Forum',
     beskrivelse: 'Doble etiketter til bruk ved elektronisk rekvirering.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   a3 = {
     produktnavn: 'Enkle etiketter til Forum',
     beskrivelse: 'Enkle etiketter til bruk ved elektronisk rekvirering.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   p1 = {
@@ -402,7 +402,7 @@ export class AlleProdukterService {
   p4 = {
     produktnavn: 'Fikseringsvæske cytologi',
     beskrivelse: 'Flaske med 100mL.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   p5 = {
@@ -414,13 +414,13 @@ export class AlleProdukterService {
   p6 = {
     produktnavn: 'Objektglass',
     beskrivelse: ' ',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   p7 = {
     produktnavn: 'Transportesker til objektsglass',
     beskrivelse: ' ',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   p8 = {
@@ -432,19 +432,19 @@ export class AlleProdukterService {
   o1 = {
     produktnavn: 'Periodontitt',
     beskrivelse: 'Prøvetakings- og forsendelsesutstyr, rekvisisjon og konvolutt.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   o2 = {
     produktnavn: 'Sopp og bakteriologi',
     beskrivelse: 'Pensel, transporthylse, rekvisisjon og konvolutt.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
   
   o3 = {
     produktnavn: 'Biopsier',
     beskrivelse: 'Prøveglass, transporthylse, rekvisisjon og konvolutt.',
-    produktbilde: 'none'
+    produktbilde: 'none.PNG'
   }
 
   vanligeRor: any[] = [this.v1, this.v2, this.v3, this.v4];

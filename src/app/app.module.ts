@@ -9,13 +9,14 @@ import { KategorimenyComponent } from './kategorimeny/kategorimeny.component';
 import { HandlekurvKnappComponent } from './handlekurv-knapp/handlekurv-knapp.component';
 import { InformasjonsvinduComponent } from './informasjonsvindu/informasjonsvindu.component';
 import { ProduktmenyComponent } from './produktmeny/produktmeny.component';
-import { ProduktComponent } from './produkt/produkt.component';
+import { ProduktvisningComponent } from './produktvisning/produktvisning.component';
 import { FormsModule } from '@angular/forms';
 import { HandlekurvSideComponent } from './handlekurv-side/handlekurv-side.component';
 import { VerktoylinjeComponent } from './verktoylinje/verktoylinje.component';
 import { RouterModule } from '@angular/router';
 import { HjemComponent } from './hjem/hjem.component';
 import { CookieService } from 'ngx-cookie-service';
+import { ProduktIHandlekurvComponent } from './produkt-i-handlekurv/produkt-i-handlekurv.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,11 @@ import { CookieService } from 'ngx-cookie-service';
     HandlekurvKnappComponent,
     InformasjonsvinduComponent,
     ProduktmenyComponent,
-    ProduktComponent,
+    ProduktvisningComponent,
     HandlekurvSideComponent,
     VerktoylinjeComponent,
     HjemComponent,
+    ProduktIHandlekurvComponent,
     
   ],
   imports: [

@@ -12,4 +12,9 @@ img {
     max-width: 175px;
 }
 
+form input[type=submit] {
+    position: flex;
+
+}
+
 

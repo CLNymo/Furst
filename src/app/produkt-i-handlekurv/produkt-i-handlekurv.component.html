@@ -1,0 +1,10 @@
+
+
+<div class="card">
+    <h5>{{navn}}</h5>
+    <img [src]="bilde" onerror="this.onerror=null; this.src='/./assets/images/produktbilder/none.PNG'">
+    <form #antallInput="ngForm" (ngSubmit)="onClickEndreAntall('antall')" style="display: flex;">          
+        <input type="number" id="antall" [value]="antall">
+        <input type="submit" value="Endre">
+    </form>
+    </div>

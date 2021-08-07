@@ -1,0 +1,16 @@
+<div class="card" >
+    <div style="padding: 20px;">
+        <h5>{{navn}}</h5>
+        <p>{{beskrivelse}}</p>
+
+        <img [src]="bilde" onerror="this.onerror=null; this.src='/./assets/images/produktbilder/none.PNG'">
+        <br>
+            <form #antallInput="ngForm" (ngSubmit)="onClickLeggTil()" style="display: flex;">          
+                <input style="width: 175px" type="number" class="form-control"  placeholder="stk." required 
+                [(ngModel)]="tmpAntall" name="tmpAntall"/>
+                <input type="submit" value="Legg til" class="btn-secondary"/>
+            </form>
+    </div>
+    <hr>
+</div>
+
